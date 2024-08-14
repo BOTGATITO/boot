@@ -145,7 +145,7 @@ if (command == 'play4' || command == 'playdoc2' || command == 'peliculas' || com
 handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
 handler.help = ['pla3', 'play4'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
-handler.command = /^(play|play2|play3|play4|video|playdoc2|playdoc|musica|sonido|peliculas|pelis)$/i;
+//handler.command = /^(play|play2|play3|play4|video|playdoc2|playdoc|musica|sonido|peliculas|pelis)$/i;
 handler.register = false;
 handler.group = false;
 export default handler;
