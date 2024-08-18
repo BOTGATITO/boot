@@ -104,7 +104,7 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
     }    
 
     try {
-      if (command === 'play.1') {
+      if (command === 'play') {
         let apiUrls2 = [
           `https://api.cafirexos.com/api/v1/ytmp3?url=${data.resultado.url}`,
           `https://api.cafirexos.com/api/v2/ytmp3?url=${data.resultado.url}`,
@@ -130,7 +130,7 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
           enviando = false;
           throw `[ ℹ️ ] O̶c̶u̶r̶r̶i̶ó ̶u̶n ̶e̶r̶r̶o̶r. 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐢𝐧𝐭𝐞́𝐧𝐭𝐚𝐥𝐨 𝐝𝐞 𝐧𝐮𝐞𝐯𝐨 𝐦𝐚́𝐬 𝐭𝐚𝐫𝐝𝐞.*`;
         }
-      } else if (command === 'play.2') {
+      } else if (command === 'play2') {
         let apiUrls22 = [
           `https://api.cafirexos.com/api/v1/ytmp4?url=${data.resultado.url}`,
           `https://api.cafirexos.com/api/v2/ytmp4?url=${data.resultado.url}`,            
