@@ -180,7 +180,7 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
 };
 
 handler.command = ['play','play2','playyt']
-handler.register = true;
+handler.register = false;
 handler.group = true;
 export default handler;
 
