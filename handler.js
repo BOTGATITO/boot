@@ -947,7 +947,7 @@ global.db.data.chats[m.chat] = {}
 		
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false                    
-if (!('welcome' in chat)) chat.welcome = false                   
+if (!('welcome' in chat)) chat.welcome = true                  
 if (!('detect' in chat)) chat.detect = false                    
 if (!('sWelcome' in chat)) chat.sWelcome = ''                    
 if (!('sBye' in chat)) chat.sBye = ''                    
@@ -957,7 +957,7 @@ if (!('delete' in chat)) chat.delete = false
 if (!('modohorny' in chat)) chat.modohorny = false                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
-if (!('audios' in chat)) chat.audios = false                     
+if (!('audios' in chat)) chat.audios = true                     
 if (!('antiver' in chat)) chat.antiver = true                  
 if (!('antiLink' in chat)) chat.antiLink = true                    
 if (!('antiLink2' in chat)) chat.antiLink2 = false
@@ -980,7 +980,7 @@ if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
 isBanned: false,
-welcome: false,
+welcome: true,
 detect: false,
 sWelcome: '',
 sBye: '',
@@ -990,7 +990,7 @@ delete: false,
 modohorny: false,
 stickers: false,
 autosticker: false,
-audios: false,
+audios: true,
 antiver: true,
 antiLink: true,
 antiLink2: false,
