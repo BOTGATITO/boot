@@ -957,7 +957,7 @@ if (!('delete' in chat)) chat.delete = false
 if (!('modohorny' in chat)) chat.modohorny = false                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
-if (!('audios' in chat)) chat.audios = true                     
+if (!('audios' in chat)) chat.audios = false                 
 if (!('antiver' in chat)) chat.antiver = true                  
 if (!('antiLink' in chat)) chat.antiLink = true                    
 if (!('antiLink2' in chat)) chat.antiLink2 = false
@@ -990,7 +990,7 @@ delete: false,
 modohorny: false,
 stickers: false,
 autosticker: false,
-audios: true,
+audios: false,
 antiver: true,
 antiLink: true,
 antiLink2: false,
